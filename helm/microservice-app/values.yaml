@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: collins002-star/microservice-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources: {}
+
